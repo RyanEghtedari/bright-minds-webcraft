@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="relative min-h-[90vh] flex items-center">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-700/80 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 to-blue-700/90 z-0"></div>
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
@@ -20,7 +20,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
               Unlock Your Child's Academic Potential
             </h1>
-            <p className="text-xl mb-8 text-blue-100 max-w-lg">
+            <p className="text-xl mb-8 text-white max-w-lg">
               Personalized tutoring that builds confidence, improves grades, and creates a lifelong love of learning.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
