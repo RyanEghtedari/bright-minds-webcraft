@@ -5,22 +5,22 @@ const Stats = () => {
   const stats = [
     {
       icon: <Users className="h-10 w-10 text-brand-blue" />,
-      value: "2,500+",
+      value: "50+",
       label: "Students Tutored",
     },
     {
       icon: <BookOpen className="h-10 w-10 text-brand-blue" />,
-      value: "25+",
+      value: "10+",
       label: "Subject Areas",
     },
     {
       icon: <Award className="h-10 w-10 text-brand-blue" />,
-      value: "95%",
-      label: "Success Rate",
+      value: "100%",
+      label: "Satisfaction Rate",
     },
     {
       icon: <Clock className="h-10 w-10 text-brand-blue" />,
-      value: "50,000+",
+      value: "1,000+",
       label: "Tutoring Hours",
     },
   ];

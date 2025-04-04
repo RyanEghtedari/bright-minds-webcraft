@@ -5,18 +5,10 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-[90vh] flex items-center">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 to-blue-700/90 z-0"></div>
-      <div 
-        className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80')",
-          backgroundBlendMode: "overlay"
-        }}
-      ></div>
+    <div className="relative min-h-[90vh] flex items-center bg-gradient-to-r from-blue-800 to-blue-600">
       <div className="container-padding max-w-7xl mx-auto relative z-10 pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="text-black">
+          <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-black">
               Unlock Your Child's Academic Potential
             </h1>
