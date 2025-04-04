@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container-padding max-w-7xl mx-auto relative z-10 pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-white">
               Unlock Your Child's Academic Potential
             </h1>
             <p className="text-xl mb-8 text-white max-w-lg">
