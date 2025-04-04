@@ -1,7 +1,7 @@
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import { Mortarboard, Brain, School, BookOpen, Lightbulb, Shapes, PenTool, HeartHandshake } from "lucide-react";
+import { GraduationCap, Brain, School, BookOpen, Lightbulb, Shapes, PenTool, HeartHandshake } from "lucide-react";
 
 const WhoWeHelp = () => {
   return (
@@ -55,7 +55,7 @@ const WhoWeHelp = () => {
               {/* High School Students */}
               <div className="bg-white rounded-lg shadow-md p-8 transition-all hover:shadow-xl">
                 <div className="flex items-center mb-4">
-                  <Mortarboard className="h-8 w-8 text-brand-blue mr-3" />
+                  <GraduationCap className="h-8 w-8 text-brand-blue mr-3" />
                   <h3 className="text-xl font-bold">High School Students</h3>
                 </div>
                 <p className="text-gray-600">
