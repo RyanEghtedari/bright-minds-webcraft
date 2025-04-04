@@ -16,11 +16,11 @@ const Hero = () => {
       ></div>
       <div className="container-padding max-w-7xl mx-auto relative z-10 pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="text-white">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-white">
+          <div className="text-black">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-black">
               Unlock Your Child's Academic Potential
             </h1>
-            <p className="text-xl mb-8 text-white max-w-lg">
+            <p className="text-xl mb-8 text-black max-w-lg">
               Personalized tutoring that builds confidence, improves grades, and creates a lifelong love of learning.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -29,15 +29,15 @@ const Hero = () => {
                   Get Started Today <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="bg-white/10 text-white border-white hover:bg-white/20 font-semibold px-8 py-6">
-                <Link to="/programs">
-                  Explore Our Programs
+              <Button asChild variant="outline" size="lg" className="bg-white/10 text-black border-black hover:bg-white/20 font-semibold px-8 py-6">
+                <Link to="/who-we-help">
+                  Explore Who We Help
                 </Link>
               </Button>
             </div>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-xl lg:translate-y-12 animate-fade-in">
-            <h3 className="text-2xl font-bold mb-4 text-gray-800">Request Free Consultation</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-800">Get In Touch</h3>
             <form className="space-y-4">
               <div>
                 <input
@@ -71,7 +71,7 @@ const Hero = () => {
               </div>
               <div>
                 <Button className="w-full bg-brand-blue hover:bg-brand-blue-dark">
-                  Schedule Consultation
+                  Contact Us
                 </Button>
               </div>
             </form>

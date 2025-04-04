@@ -9,7 +9,6 @@ const navLinks = [
   { name: "About Us", path: "/about" },
   { name: "Services", path: "/services" },
   { name: "Who We Help", path: "/who-we-help" },
-  { name: "Programs", path: "/programs" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -57,7 +56,7 @@ export const Navbar = () => {
             </Link>
           ))}
           <Button size="sm" className="bg-brand-blue hover:bg-brand-blue-dark text-white">
-            Free Consultation
+            Get In Touch
           </Button>
         </div>
 
@@ -85,7 +84,7 @@ export const Navbar = () => {
               </Link>
             ))}
             <Button className="bg-brand-blue hover:bg-brand-blue-dark text-white mt-2">
-              Free Consultation
+              Get In Touch
             </Button>
           </div>
         </div>
